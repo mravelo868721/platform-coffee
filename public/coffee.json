@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Morning Shift",
+        "tagline": "Bright and sharp, for early starts.",
+        "description": "Catch your second wind with our perfect roast for the middle of the day. ",
+        "price": 5.67,
+        "image": "images/coffee/morning_shift.jpg",
+        "tags": ["light roast", "citrus", "bright", "morning fuel", "quick start"]
+    },
+    {
+        "id": 2,
+        "name": "Afternoon Delight",
+        "tagline": "Smooth and balanced, for a midday boost.",
+        "description": "Recharge your afternoon with a cup that’s both invigorating and comforting.",
+        "price": 6.45,
+        "image": "images/coffee/afternoon_delight.jpg",
+        "tags": ["medium roast", "balanced", "smooth", "afternoon pick-me-up", "energizing"]
+    },
+    {
+        "id": 3,
+        "name": "Evening Bliss",
+        "tagline": "Rich and bold, for winding down.",
+        "description": "Unwind with a deep, flavorful brew that’s perfect for the end of the day.",
+        "price": 7.20,
+        "image": "images/coffee/evening_bliss.jpg",
+        "tags": ["dark roast", "bold", "rich", "evening relaxation", "full-bodied"]
+    },
+    {
+        "id": 4,
+        "name": "Night Owl",
+        "tagline": "Decaf and delicious, for late-night sips.",
+        "description": "Enjoy the taste of coffee without the caffeine kick, perfect for late-night work or relaxation.",
+        "price": 6.00,
+        "image": "images/coffee/night_owl.jpg",
+        "tags": ["decaf", "smooth", "light", "nighttime", "relaxing"]
+    },
+    {
+        "id": 5,
+        "name": "Weekend Warrior",
+        "tagline": "Robust and energizing, for your days off.",
+        "description": "Fuel your weekend adventures with a strong and invigorating brew.",
+        "price": 7.50,
+        "image": "images/coffee/weekend_warrior.jpg",
+        "tags": ["bold roast", "energizing", "robust", "weekend fuel", "adventure ready"]
+    },
+    {
+        "id": 6,
+        "name": "Holiday Cheer",
+        "tagline": "Spiced and festive, for the holiday season.",
+        "description": "Celebrate the holidays with a warm and spiced coffee blend that brings joy to every cup.",
+        "price": 8.00,
+        "image": "images/coffee/holiday_cheer.jpg",
+        "tags": ["spiced", "festive", "holiday", "warm", "joyful"]
+    },
+    {
+        "id": 7,
+        "name": "Tropical Escape",
+        "tagline": "Fruity and vibrant, for a taste of paradise.",
+        "description": "Transport yourself to a tropical paradise with every sip of this fruity and vibrant coffee blend.",
+        "price": 7.75,
+        "image": "images/coffee/tropical_escape.jpg",
+        "tags": ["fruity", "vibrant", "tropical", "paradise", "exotic"]
+    },
+    {
+        "id": 8,
+        "name": "Mountain Mist",
+        "tagline": "Crisp and refreshing, for a cool pick-me-up.",
+        "description": "Experience the refreshing taste of mountain air with this crisp and invigorating coffee blend.",
+        "price": 6.85,
+        "image": "images/coffee/mountain_mist.jpg",
+        "tags": ["crisp", "refreshing", "cool", "mountain", "invigorating"]
+    },
+    {
+        "id": 9,
+        "name": "Caramel Dream",
+        "tagline": "Sweet and creamy, for a delightful treat.",
+        "description": "Indulge in the rich, sweet flavors of caramel blended perfectly with smooth coffee.",
+        "price": 7.10,
+        "image": "images/coffee/caramel_dream.jpg",
+        "tags": ["sweet", "creamy", "caramel", "indulgent", "treat"]
+    },
+    {
+        "id": 10,
+        "name": "Vanilla Velvet",
+        "tagline": "Smooth and aromatic, for a luxurious experience.",
+        "description": "Savor the smooth, velvety texture and rich vanilla aroma in every cup.",
+        "price": 7.30,
+        "image": "images/coffee/vanilla_velvet.jpg",
+        "tags": ["smooth", "aromatic", "vanilla", "luxurious", "rich"]
+    },
+    {
+        "id": 11,
+        "name": "Hazelnut Harmony",
+        "tagline": "Nutty and flavorful, for a perfect blend.",
+        "description": "Enjoy the harmonious blend of rich coffee and nutty hazelnut flavors.",
+        "price": 7.25,
+        "image": "images/coffee/hazelnut_harmony.jpg",
+        "tags": ["nutty", "flavorful", "hazelnut", "blend", "rich"]
+    },
+    {
+        "id": 12,
+        "name": "Mocha Magic",
+        "tagline": "Chocolatey and indulgent, for a sweet escape.",
+        "description": "Escape into a world of chocolatey goodness with this indulgent mocha coffee blend.",
+        "price": 7.95,
+        "image": "images/coffee/mocha_magic.jpg",
+        "tags": ["chocolatey", "indulgent", "mocha", "sweet escape", "rich"]
+    }
+]
