@@ -40,7 +40,7 @@ export default function Navigation() {
             cursor-pointer"
           onClick=""
         >
-          Menu -
+          Menu ☰
         </button>
       </div>
     </div>
