@@ -42,7 +42,9 @@ export default function HeroCarousel() {
       {slides.map((slide, i) => (
         <div
           key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-out
+          className={`
+            absolute inset-0
+            transition-opacity duration-1000 ease-out
           ${i === currentSlide ? "opacity-100" : "opacity-0"}`}
           style={{
             backgroundImage: `url(${slide.image})`,
