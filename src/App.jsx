@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import Navigation from "./components/Navigation";
+import HamburgerMenu from "./components/HamburgerMenu";
 import HeroCarousel from "./components/HeroCarousel";
 import ProductCard from "./components/ProductCard";
 
 function App() {
   const [products, setProducts] = useState([]);
+  const [navState, setNavState] = useState("navigation");
 
   // fetches the data from the json
   useEffect(() => {
@@ -15,7 +17,13 @@ function App() {
 
   return (
     <div className="m-0 p-0">
-      <Navigation />
+      {navState === "navigation" && (
+        <Navigation openMenu={() => setNavState("menu")} />
+      )}
+      {navState === "menu" && (
+        <HamburgerMenu closeMenu={() => setNavState("navigation")} />
+      )}
+
       <HeroCarousel />
       <div>
         <h1

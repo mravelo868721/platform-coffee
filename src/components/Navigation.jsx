@@ -1,17 +1,13 @@
 import { useState } from "react";
 
-export default function Navigation() {
-  const [navigationMenu, setNavigationMenu] = useState("navigation");
-
+export default function Navigation({ openMenu }) {
   //if navigationMenu is "navigation" return normal nav, else if navigationMenu is "menu" return menu nav
 
   return (
     <div
-      className={`
-      navigation-bar
+      className="navigation-bar
       flex justify-between w-full 
-      px-[10%] py-4 bg-white border-b border-gray-300
-      ${navigationMenu === "navigation" ? "block" : "hidden"}`}
+      px-[10%] py-4 bg-white border-b border-gray-300"
     >
       <div className="logo-container">
         <img
@@ -42,23 +38,10 @@ export default function Navigation() {
             text-xl font-semibold tracking-wider uppercase
             bg-gray-900 text-white rounded
             cursor-pointer"
-          onClick={() => setNavigationMenu("menu")}
+          onClick={openMenu}
         >
           Menu ☰
         </button>
-      </div>
-      <div
-        className={`
-      flyout-menu
-      flex flex-col w-[30%]
-      ${navigationMenu === "menu" ? "block" : "hidden"}
-      `}
-      >
-        <ul>
-          <li>Pizza</li>
-          <li>Pizza</li>
-          <li>Pizza</li>
-        </ul>
       </div>
     </div>
   );

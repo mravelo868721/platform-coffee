@@ -83,8 +83,7 @@ export default function HeroCarousel() {
             </p>
             <button
               className="
-            max-w-[296px]
-            px-9 py-6 rounded-lg
+            max-w-[296px] px-9 py-6 rounded-lg cursor-pointer
           text-gray-700 font-semibold tracking-widest uppercase bg-white
           "
               onclick=""
