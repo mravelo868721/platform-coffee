@@ -13,13 +13,14 @@ export default function ProductCard({
   return (
     <div
       className="
-        product-card flex flex-col h-full
+        product-card flex flex-col h-full border border-gray-300
         "
     >
+      {/* Product Image */}
       <div
         className="
           product-image-container
-          flex w-full h-[325px] mb-6
+          flex w-full h-[325px] mb-4
           "
       >
         <img
@@ -31,10 +32,9 @@ export default function ProductCard({
       {/* Product Name and Like Button */}
       <div
         className="
-                name-and-like-container
-                flex
-                justify-between
-                mb-4"
+          name-and-like-container
+          flex justify-between mb-2 px-4
+          "
       >
         <h2 className="text-2xl font-bold">{name}</h2>
         <button onClick={() => setLiked(!liked)}>{liked ? "❤️" : "🤍"}</button>
@@ -43,13 +43,13 @@ export default function ProductCard({
       <div
         className="
           product-information 
-          flex flex-col 
+          flex flex-col px-4
         "
       >
         <div
           className="
             product-desc flex flex-col
-            min-h-20 mb-6
+            min-h-20 mb-6 
           "
         >
           <p className="text-[1.375rem] mb-2">{tagline}</p>
@@ -69,12 +69,8 @@ export default function ProductCard({
       {/* Product Tags */}
       <div
         className="
-                product-tags-container
-                flex
-                flex-wrap
-                items-start
-                mb-4
-                grow
+                product-tags-container flex flex-wrap
+                items-start mb-4 px-4 grow
                 "
       >
         {tags &&
@@ -97,7 +93,7 @@ export default function ProductCard({
           ))}
       </div>
 
-      <button
+      {/* <button
         className="
                 add-to-cart
                 p-4
@@ -108,7 +104,7 @@ export default function ProductCard({
                 "
       >
         Add to Cart
-      </button>
+      </button> */}
     </div>
   );
 }
