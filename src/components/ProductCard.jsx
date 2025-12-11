@@ -13,20 +13,14 @@ export default function ProductCard({
   return (
     <div
       className="
-        product-card
-        flex
-        flex-col
-        h-full
+        product-card flex flex-col h-full
         "
     >
       <div
         className="
-            product-image-container
-            flex
-            w-full
-            h-[325px]
-            mb-6
-            "
+          product-image-container
+          flex w-full h-[325px] mb-6
+          "
       >
         <img
           className="w-full h-full object-cover rounded-lg"

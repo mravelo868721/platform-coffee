@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import HamburgerMenu from "./components/HamburgerMenu";
 import HeroCarousel from "./components/HeroCarousel";
 import ProductCard from "./components/ProductCard";
+import ProductCarousel from "./components/ProductCarousel";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -25,6 +26,7 @@ function App() {
       )}
 
       <HeroCarousel />
+      <ProductCarousel />
       <div>
         <h1
           className="
@@ -34,7 +36,7 @@ function App() {
         px-[10%]
       "
         >
-          Our Products
+          Our Featured Products
         </h1>
         <div
           className="
