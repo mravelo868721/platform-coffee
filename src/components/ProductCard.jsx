@@ -42,33 +42,31 @@ export default function ProductCard({
       {/* Product Information */}
       <div
         className="
-                product-information 
-                flex 
-                flex-col 
-                
-                "
+          product-information 
+          flex flex-col 
+        "
       >
         <div
           className="
-                    product-desc
-                    flex
-                    flex-col
-                    min-h-40
-                    mb-6"
+            product-desc flex flex-col
+            min-h-20 mb-6
+          "
         >
           <p className="text-[1.375rem] mb-2">{tagline}</p>
           <p className="text-base">{desc}</p>
         </div>
         <p
           className="
-                    text-xl
-                    font-bold
-                    mb-2"
+            text-xl
+            font-bold
+            mb-2
+          "
         >
           ${price.toFixed(2)}
         </p>
         {/* Fixes price to 2 decimal places */}
       </div>
+      {/* Product Tags */}
       <div
         className="
                 product-tags-container
