@@ -30,10 +30,10 @@ export default function FeaturedCarousel({ products }) {
         >
           Our Featured Products
         </h1>
-        <div className="flex">
+        <div className="flex gap-4">
           <button
             className="
-            flex px-8 py-2 ml-8 cursor-pointer
+            flex px-8 py-2 cursor-pointer
             text-xl font-semibold tracking-wider uppercase
             bg-gray-900 text-white rounded
             "
@@ -45,7 +45,7 @@ export default function FeaturedCarousel({ products }) {
           </button>
           <button
             className="
-            flex px-8 py-2 ml-8 cursor-pointer
+            flex px-8 py-2 cursor-pointer
             text-xl font-semibold tracking-wider uppercase
             bg-gray-900 text-white rounded
             "

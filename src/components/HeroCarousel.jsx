@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 export default function HeroCarousel() {
   //Slide content
   const slides = [
+    // Slide 1
     {
       id: 1,
       title: "Fuel For The Bold.\nRoasts Redefined.",
@@ -10,6 +11,7 @@ export default function HeroCarousel() {
       image: "/images/banners/hero-img1.jpg",
       cta: "Shop our roasts",
     },
+    // Slide 2
     {
       id: 2,
       title: "Crafted For Makers.\nPerfected Every Day.",
@@ -17,6 +19,7 @@ export default function HeroCarousel() {
       image: "/images/banners/hero-img2.jpg",
       cta: "See the Process",
     },
+    // Slide 3
     {
       id: 3,
       title: "For Early Risers\n& Relentless Thinkers.",
@@ -75,7 +78,7 @@ export default function HeroCarousel() {
             </h1>
             <p
               className="
-              text-lg text-white
+              text-2xl text-white
               w-[60%] mb-4
               "
             >
