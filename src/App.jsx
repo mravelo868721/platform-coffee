@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import Navigation from "./components/Navigation";
 import HamburgerMenu from "./components/HamburgerMenu";
 import HeroCarousel from "./components/HeroCarousel";
+import Mission from "./components/Mission";
 import FeaturedCarousel from "./components/FeaturedCarousel";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -25,7 +27,9 @@ function App() {
       )}
 
       <HeroCarousel />
+      <Mission />
       <FeaturedCarousel products={products} />
+      <ContactForm />
     </div>
   );
 }
