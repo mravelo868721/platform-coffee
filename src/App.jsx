@@ -5,6 +5,7 @@ import HeroCarousel from "./components/HeroCarousel";
 import Mission from "./components/Mission";
 import FeaturedCarousel from "./components/FeaturedCarousel";
 import ContactForm from "./components/ContactForm";
+import ContactInformation from "./components/ContactInformation";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -29,7 +30,10 @@ function App() {
       <HeroCarousel />
       <Mission />
       <FeaturedCarousel products={products} />
-      <ContactForm />
+      <div className="flex px-[10%] gap-5">
+        <ContactInformation />
+        <ContactForm />
+      </div>
     </div>
   );
 }
