@@ -11,7 +11,7 @@ export default function ContactForm() {
   const isFormComplete = Object.values(form).every(Boolean);
 
   return (
-    <div>
+    <div className="w-[50%]">
       <form className="flex flex-col bg-gray-400 p-8">
         <label className="flex flex-col">
           <span>Name</span>
