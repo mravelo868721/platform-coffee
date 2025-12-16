@@ -30,7 +30,7 @@ function App() {
       <HeroCarousel />
       <Mission />
       <FeaturedCarousel products={products} />
-      <div className="flex px-[10%] gap-5">
+      <div className="flex px-[10%] mt-20 mb-8 gap-5">
         <ContactInformation />
         <ContactForm />
       </div>

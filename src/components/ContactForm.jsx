@@ -11,8 +11,8 @@ export default function ContactForm() {
   const isFormComplete = Object.values(form).every(Boolean);
 
   return (
-    <div className="w-[50%]">
-      <form className="flex flex-col bg-gray-400 p-8">
+    <div className="w-[50%] h-auto">
+      <form className="flex flex-col bg-gray-300 p-8 h-full rounded-xl">
         <label className="flex flex-col">
           <span>Name</span>
           <input
@@ -38,7 +38,7 @@ export default function ContactForm() {
         <label className="flex flex-col">
           <span>Message</span>
           <input
-            className="bg-white border border-white rounded-lg p-4 mb-4"
+            className="bg-white border border-white rounded-lg p-4 mb-4 min-h-[248px]"
             type="text"
             name="message"
             value={form.message}
@@ -51,13 +51,13 @@ export default function ContactForm() {
           className="
     px-8 py-4 rounded-lg font-semibold uppercase
     bg-black text-white
-    disabled:bg-gray-300 disabled:text-gray-500
+    disabled:bg-gray-400 disabled:text-gray-500
     disabled:cursor-not-allowed
   "
           disabled={!isFormComplete}
           type="submit"
         >
-          Submit
+          Reach Out
         </button>
       </form>
     </div>
