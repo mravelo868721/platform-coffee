@@ -45,7 +45,7 @@ export default function HeroCarousel() {
       className="
         hero-carousel
         flex flex-wrap relative w-full
-        px-[5%] mt-8 h-[75lvh]
+        px-[5%] mt-8 h-[90lvh]
         "
     >
       {slides.map((slide, i) => (
